@@ -53,3 +53,41 @@ p {
     width: 95%;
     margin: 0 auto;
 }
+
+.fondo1 {
+    background-color: var(--primario);
+}
+
+/* Encabezado */
+.encabezado {
+    text-align: center;
+}
+
+.encabezado span {
+    font-size: 3rem;
+}
+
+/* Navegacion */
+.navegacion a {
+    display: block;
+    color: var(--cuaternario);
+    padding: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navegacion a:hover {
+    background-color: darkorange;
+    color: azure;
+}
+
+@media (min-width: 768px) {
+    .navegacion {
+        display: flex;
+        justify-content: space-around;
+        max-width: 120rem;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+}
