@@ -1,0 +1,55 @@
+:root {
+    /* Paleta de colores */
+    --primario: #645CAA;
+    --secundario: #A084CA;
+    --terciario: #BFACE0;
+    --cuaternario: #EBC7E8;
+
+    /* Fuentes */
+    --fuenteTitulo: Verdana, Geneva, Tahoma, sans-serif;
+    --fuenteParrafo: 'Lucida Sans', Geneva, Verdana, sans-serif;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+    box-sizing: border-box; /* hack box sizing */
+}
+
+*, *::before, *::after {
+    box-sizing: inherit; /* hack box sizing */
+}
+
+body {
+    font-family: var(--fuenteParrafo);
+    font-size: 1.6rem; /* 1rem = 10px */
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3 {
+    font-family: var(--fuenteTitulo);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.contenedor {
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+}
