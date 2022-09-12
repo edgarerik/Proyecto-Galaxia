@@ -58,6 +58,22 @@ p {
     background-color: var(--primario);
 }
 
+.no-margin {
+    margin: 0;
+}
+
+.boton {
+    color: aliceblue;
+    background-color: var(--secundario);
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+.boton:hover {
+    color: black;
+    background-color: yellow;
+}
+
 /* Encabezado */
 .encabezado {
     text-align: center;
@@ -90,4 +106,27 @@ p {
         margin: 0 auto;
     }
     
+}
+
+/* Baneer */
+.banner {
+    background-image: url(../img/purple-galaxy-background-min.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 60rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner h2 {
+    color: var(--secundario);
+}
+
+.banner-contenido {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
